@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(2, 252, 252, 0.474);
+}
+/* Reset all default styling and apply basic font to default values of all elements  */
+body * {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-rows: repeat(2,2fr);
+}
+
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100vw;
+    margin: 1rem;
+    padding: 0 1em 0;
+}
+
+.detail-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 7em;
+    row-gap: 3rem;
+    margin-right: 5rem;
+
+}
+
+
